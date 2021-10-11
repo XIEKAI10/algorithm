@@ -97,8 +97,9 @@ class SingleList {
 }
 let myList = new SingleList();
 let arr = [1, 2, 3, 4];
-for (let i = 0; i < arr.length; i++) {
-  myList.append(arr[i]);
-}
+// for (let i = 0; i < arr.length; i++) {
+//   myList.append(arr[i]);
+// }
 
+myList.insert('head', 1);
 myList.show();
